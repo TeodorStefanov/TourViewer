@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 40px;
+  padding-left: 200px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.title {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.floors {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.floors:hover {
+  font-weight: bold;
+}
